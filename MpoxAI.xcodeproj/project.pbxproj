@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A960B7DE6AC557CE46A3A39 /* Pods_MpoxAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D8DC59F1CD9D003076DB5A /* Pods_MpoxAITests.framework */; };
+		180766F22C82C44D008945F0 /* mpox_tf.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 180766F12C82C42A008945F0 /* mpox_tf.tflite */; };
+		180766F42C82C531008945F0 /* mpox_model.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 180766F32C82C531008945F0 /* mpox_model.mlpackage */; };
+		180766F62C82D475008945F0 /* mpox_model_draft.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 180766F52C82D475008945F0 /* mpox_model_draft.mlmodel */; };
+		1811556F2C9997DA00042DBA /* mpox_model_fp32.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1811556E2C9997DA00042DBA /* mpox_model_fp32.mlpackage */; };
+		183C51912C807B29007808CF /* mpox.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 1822AB792C7C149A0052D71A /* mpox.tflite */; };
+		184FB44F2C7B2EEF0021DE6A /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FB44E2C7B2EEF0021DE6A /* InstructionsView.swift */; };
+		184FB4512C7B35DC0021DE6A /* ImageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FB4502C7B35DC0021DE6A /* ImageSelectionView.swift */; };
+		187D5E7D2C95DD1600E5C4C1 /* pegasus.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 187D5E7C2C95DD1600E5C4C1 /* pegasus.mlpackage */; };
+		18828E982C8575C600CE62AE /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18828E972C8575C600CE62AE /* SuccessView.swift */; };
+		18B9C29A2C95EE8700ADEB01 /* pegasus.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C2992C95EE8700ADEB01 /* pegasus.mlpackage */; };
 		18CC95CD2C733FBE0048BA81 /* MpoxAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC95CC2C733FBE0048BA81 /* MpoxAIApp.swift */; };
 		18CC95CF2C733FBE0048BA81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC95CE2C733FBE0048BA81 /* ContentView.swift */; };
 		18CC95D12C733FBF0048BA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CC95D02C733FBF0048BA81 /* Assets.xcassets */; };
@@ -14,6 +25,10 @@
 		18CC95DE2C733FBF0048BA81 /* MpoxAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC95DD2C733FBF0048BA81 /* MpoxAITests.swift */; };
 		18CC95E82C733FBF0048BA81 /* MpoxAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC95E72C733FBF0048BA81 /* MpoxAIUITests.swift */; };
 		18CC95EA2C733FBF0048BA81 /* MpoxAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC95E92C733FBF0048BA81 /* MpoxAIUITestsLaunchTests.swift */; };
+		18CC95F72C7343600048BA81 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC95F62C7343600048BA81 /* CameraViewModel.swift */; };
+		18CC95F92C73438F0048BA81 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CC95F82C73438F0048BA81 /* ImagePicker.swift */; };
+		4A8990C1EC6D3D28E8028EEA /* Pods_MpoxAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C92E5663FB3732DAAD4BE9 /* Pods_MpoxAI.framework */; };
+		D83A00F2C6A6600137D2FAD2 /* Pods_MpoxAI_MpoxAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38BEDF0BA4810DC7B32E7BC /* Pods_MpoxAI_MpoxAIUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180766F02C82C3D2008945F0 /* mpox_tf.keras */ = {isa = PBXFileReference; lastKnownFileType = file; name = mpox_tf.keras; path = ../../../Downloads/mpox_tf.keras; sourceTree = "<group>"; };
+		180766F12C82C42A008945F0 /* mpox_tf.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = mpox_tf.tflite; path = ../../../Downloads/mpox_tf.tflite; sourceTree = "<group>"; };
+		180766F32C82C531008945F0 /* mpox_model.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = mpox_model.mlpackage; sourceTree = "<group>"; };
+		180766F52C82D475008945F0 /* mpox_model_draft.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mpox_model_draft.mlmodel; path = ../../convert_model/mpox_model_draft.mlmodel; sourceTree = "<group>"; };
+		1811556E2C9997DA00042DBA /* mpox_model_fp32.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = mpox_model_fp32.mlpackage; path = ../../convert_model/mpox_model_fp32.mlpackage; sourceTree = "<group>"; };
+		1822AB792C7C149A0052D71A /* mpox.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mpox.tflite; sourceTree = "<group>"; };
+		183C51902C806D60007808CF /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = model.tflite; path = ../../../Desktop/model.tflite; sourceTree = "<group>"; };
+		184FB44E2C7B2EEF0021DE6A /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		184FB4502C7B35DC0021DE6A /* ImageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectionView.swift; sourceTree = "<group>"; };
+		187D5E7C2C95DD1600E5C4C1 /* pegasus.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = pegasus.mlpackage; path = ../../convert_model/pegasus.mlpackage; sourceTree = "<group>"; };
+		18828E972C8575C600CE62AE /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		18B9C2992C95EE8700ADEB01 /* pegasus.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = pegasus.mlpackage; path = ../../convert_model/pegasus.mlpackage; sourceTree = "<group>"; };
 		18CC95C92C733FBE0048BA81 /* MpoxAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MpoxAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CC95CC2C733FBE0048BA81 /* MpoxAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpoxAIApp.swift; sourceTree = "<group>"; };
 		18CC95CE2C733FBE0048BA81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +71,17 @@
 		18CC95E32C733FBF0048BA81 /* MpoxAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MpoxAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CC95E72C733FBF0048BA81 /* MpoxAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpoxAIUITests.swift; sourceTree = "<group>"; };
 		18CC95E92C733FBF0048BA81 /* MpoxAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpoxAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18CC95F62C7343600048BA81 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		18CC95F82C73438F0048BA81 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2BBCAEA3EE4CFE25ECC95F4D /* Pods-MpoxAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MpoxAI.debug.xcconfig"; path = "Target Support Files/Pods-MpoxAI/Pods-MpoxAI.debug.xcconfig"; sourceTree = "<group>"; };
+		38A25524ED6F7F767C32412A /* Pods-MpoxAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MpoxAITests.debug.xcconfig"; path = "Target Support Files/Pods-MpoxAITests/Pods-MpoxAITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42D8DC59F1CD9D003076DB5A /* Pods_MpoxAITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MpoxAITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFE89CE0F0DDE46D7656EE0 /* Pods-MpoxAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MpoxAI.release.xcconfig"; path = "Target Support Files/Pods-MpoxAI/Pods-MpoxAI.release.xcconfig"; sourceTree = "<group>"; };
+		90D19AB8E10197278C3F5432 /* Pods-MpoxAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MpoxAITests.release.xcconfig"; path = "Target Support Files/Pods-MpoxAITests/Pods-MpoxAITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5C92E5663FB3732DAAD4BE9 /* Pods_MpoxAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MpoxAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3E2800DC9835857D7A853 /* Pods-MpoxAI-MpoxAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MpoxAI-MpoxAIUITests.debug.xcconfig"; path = "Target Support Files/Pods-MpoxAI-MpoxAIUITests/Pods-MpoxAI-MpoxAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F38BEDF0BA4810DC7B32E7BC /* Pods_MpoxAI_MpoxAIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MpoxAI_MpoxAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67323A54C9BADF10663FF19 /* Pods-MpoxAI-MpoxAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MpoxAI-MpoxAIUITests.release.xcconfig"; path = "Target Support Files/Pods-MpoxAI-MpoxAIUITests/Pods-MpoxAI-MpoxAIUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8990C1EC6D3D28E8028EEA /* Pods_MpoxAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A960B7DE6AC557CE46A3A39 /* Pods_MpoxAITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +105,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83A00F2C6A6600137D2FAD2 /* Pods_MpoxAI_MpoxAIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		161791B17C4ECD246A4CE02E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5C92E5663FB3732DAAD4BE9 /* Pods_MpoxAI.framework */,
+				F38BEDF0BA4810DC7B32E7BC /* Pods_MpoxAI_MpoxAIUITests.framework */,
+				42D8DC59F1CD9D003076DB5A /* Pods_MpoxAITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1822AB782C7C148A0052D71A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		18CC95C02C733FBE0048BA81 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +136,8 @@
 				18CC95DC2C733FBF0048BA81 /* MpoxAITests */,
 				18CC95E62C733FBF0048BA81 /* MpoxAIUITests */,
 				18CC95CA2C733FBE0048BA81 /* Products */,
+				A8BEC1DBE5A0B34DB0D885B3 /* Pods */,
+				161791B17C4ECD246A4CE02E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +154,25 @@
 		18CC95CB2C733FBE0048BA81 /* MpoxAI */ = {
 			isa = PBXGroup;
 			children = (
+				180766F02C82C3D2008945F0 /* mpox_tf.keras */,
+				180766F12C82C42A008945F0 /* mpox_tf.tflite */,
+				187D5E7C2C95DD1600E5C4C1 /* pegasus.mlpackage */,
+				18B9C2992C95EE8700ADEB01 /* pegasus.mlpackage */,
+				1811556E2C9997DA00042DBA /* mpox_model_fp32.mlpackage */,
+				183C51902C806D60007808CF /* model.tflite */,
+				180766F52C82D475008945F0 /* mpox_model_draft.mlmodel */,
+				180766F32C82C531008945F0 /* mpox_model.mlpackage */,
+				1822AB782C7C148A0052D71A /* Model */,
 				18CC95CC2C733FBE0048BA81 /* MpoxAIApp.swift */,
 				18CC95CE2C733FBE0048BA81 /* ContentView.swift */,
 				18CC95D02C733FBF0048BA81 /* Assets.xcassets */,
 				18CC95D22C733FBF0048BA81 /* Preview Content */,
+				18CC95F62C7343600048BA81 /* CameraViewModel.swift */,
+				18CC95F82C73438F0048BA81 /* ImagePicker.swift */,
+				1822AB792C7C149A0052D71A /* mpox.tflite */,
+				184FB44E2C7B2EEF0021DE6A /* InstructionsView.swift */,
+				184FB4502C7B35DC0021DE6A /* ImageSelectionView.swift */,
+				18828E972C8575C600CE62AE /* SuccessView.swift */,
 			);
 			path = MpoxAI;
 			sourceTree = "<group>";
@@ -127,6 +202,19 @@
 			path = MpoxAIUITests;
 			sourceTree = "<group>";
 		};
+		A8BEC1DBE5A0B34DB0D885B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BBCAEA3EE4CFE25ECC95F4D /* Pods-MpoxAI.debug.xcconfig */,
+				4BFE89CE0F0DDE46D7656EE0 /* Pods-MpoxAI.release.xcconfig */,
+				CBB3E2800DC9835857D7A853 /* Pods-MpoxAI-MpoxAIUITests.debug.xcconfig */,
+				F67323A54C9BADF10663FF19 /* Pods-MpoxAI-MpoxAIUITests.release.xcconfig */,
+				38A25524ED6F7F767C32412A /* Pods-MpoxAITests.debug.xcconfig */,
+				90D19AB8E10197278C3F5432 /* Pods-MpoxAITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18CC95ED2C733FBF0048BA81 /* Build configuration list for PBXNativeTarget "MpoxAI" */;
 			buildPhases = (
+				CF7764E1D1FD3700E48E8E0D /* [CP] Check Pods Manifest.lock */,
 				18CC95C52C733FBE0048BA81 /* Sources */,
 				18CC95C62C733FBE0048BA81 /* Frameworks */,
 				18CC95C72C733FBE0048BA81 /* Resources */,
+				28E42B9F320218D5113AF32B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18CC95F02C733FBF0048BA81 /* Build configuration list for PBXNativeTarget "MpoxAITests" */;
 			buildPhases = (
+				F93602551EC47E258D23BC6E /* [CP] Check Pods Manifest.lock */,
 				18CC95D52C733FBF0048BA81 /* Sources */,
 				18CC95D62C733FBF0048BA81 /* Frameworks */,
 				18CC95D72C733FBF0048BA81 /* Resources */,
+				46D3CE5D9F5ED1A5168E962B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18CC95F32C733FBF0048BA81 /* Build configuration list for PBXNativeTarget "MpoxAIUITests" */;
 			buildPhases = (
+				4356FB8D2640502A7C0D4112 /* [CP] Check Pods Manifest.lock */,
 				18CC95DF2C733FBF0048BA81 /* Sources */,
 				18CC95E02C733FBF0048BA81 /* Frameworks */,
 				18CC95E12C733FBF0048BA81 /* Resources */,
+				4F7C8D3D496BD84BC790F620 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +325,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180766F22C82C44D008945F0 /* mpox_tf.tflite in Resources */,
+				183C51912C807B29007808CF /* mpox.tflite in Resources */,
 				18CC95D42C733FBF0048BA81 /* Preview Assets.xcassets in Resources */,
 				18CC95D12C733FBF0048BA81 /* Assets.xcassets in Resources */,
 			);
@@ -252,13 +348,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28E42B9F320218D5113AF32B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MpoxAI/Pods-MpoxAI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MpoxAI/Pods-MpoxAI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MpoxAI/Pods-MpoxAI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4356FB8D2640502A7C0D4112 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MpoxAI-MpoxAIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46D3CE5D9F5ED1A5168E962B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MpoxAITests/Pods-MpoxAITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MpoxAITests/Pods-MpoxAITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MpoxAITests/Pods-MpoxAITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F7C8D3D496BD84BC790F620 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MpoxAI-MpoxAIUITests/Pods-MpoxAI-MpoxAIUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MpoxAI-MpoxAIUITests/Pods-MpoxAI-MpoxAIUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MpoxAI-MpoxAIUITests/Pods-MpoxAI-MpoxAIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7764E1D1FD3700E48E8E0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MpoxAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F93602551EC47E258D23BC6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MpoxAITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18CC95C52C733FBE0048BA81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18CC95CF2C733FBE0048BA81 /* ContentView.swift in Sources */,
+				184FB44F2C7B2EEF0021DE6A /* InstructionsView.swift in Sources */,
+				180766F62C82D475008945F0 /* mpox_model_draft.mlmodel in Sources */,
+				18CC95F92C73438F0048BA81 /* ImagePicker.swift in Sources */,
+				187D5E7D2C95DD1600E5C4C1 /* pegasus.mlpackage in Sources */,
+				18828E982C8575C600CE62AE /* SuccessView.swift in Sources */,
+				180766F42C82C531008945F0 /* mpox_model.mlpackage in Sources */,
+				184FB4512C7B35DC0021DE6A /* ImageSelectionView.swift in Sources */,
+				18B9C29A2C95EE8700ADEB01 /* pegasus.mlpackage in Sources */,
 				18CC95CD2C733FBE0048BA81 /* MpoxAIApp.swift in Sources */,
+				1811556F2C9997DA00042DBA /* mpox_model_fp32.mlpackage in Sources */,
+				18CC95F72C7343600048BA81 /* CameraViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +642,7 @@
 		};
 		18CC95EE2C733FBF0048BA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BBCAEA3EE4CFE25ECC95F4D /* Pods-MpoxAI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,12 +651,16 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MpoxAI/Preview Content\"";
 				DEVELOPMENT_TEAM = WT336NW4VX;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MpoxAI;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uses it to take photo of individual's rash to diagnose Mpox";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,6 +676,7 @@
 		};
 		18CC95EF2C733FBF0048BA81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFE89CE0F0DDE46D7656EE0 /* Pods-MpoxAI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,12 +685,16 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MpoxAI/Preview Content\"";
 				DEVELOPMENT_TEAM = WT336NW4VX;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MpoxAI;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uses it to take photo of individual's rash to diagnose Mpox";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,6 +710,7 @@
 		};
 		18CC95F12C733FBF0048BA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A25524ED6F7F767C32412A /* Pods-MpoxAITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +731,7 @@
 		};
 		18CC95F22C733FBF0048BA81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D19AB8E10197278C3F5432 /* Pods-MpoxAITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +752,7 @@
 		};
 		18CC95F42C733FBF0048BA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB3E2800DC9835857D7A853 /* Pods-MpoxAI-MpoxAIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +771,7 @@
 		};
 		18CC95F52C733FBF0048BA81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67323A54C9BADF10663FF19 /* Pods-MpoxAI-MpoxAIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
